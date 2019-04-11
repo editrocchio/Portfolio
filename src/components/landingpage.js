@@ -1,38 +1,49 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
-import profile from '../bcit-nov28-2316.png'
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
+import Typography from '@material-ui/core/Grid';
 
-class Landing extends Component {
-  render() {
-    return (
-      <div style = {{width: '100%', margin: 'auto'}}>
-        <Grid className='landing-grid'>
-          <Cell col={12}>
-            <img src={profile} alt='profile_pic' className='profile-img'/>
+const styles = theme => ({
+  root: {
+    flexGrow: 1,
+    color: "white",
+    textAlign: "center",
+    margin: "15% 0 0 25%",
+    width: "100%",
+  },
+});
 
-            <div className='banner-text'>
+function CenteredGrid(props) {
+  const { classes } = props;
 
-              <h1>BCIT Computer Systems Technology Student</h1>
-              <hr/>
-              <p>Android | Java | JavaScript | Python | HTML/CSS | OracleDB</p>
+  return (
+    <div className={classes.root}>
+      <Grid container spacing={6}>
 
-              <div className="social-links">
-                {/*Linkedin*/}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                  <i class="fab fa-linkedin" aria-hidden="true"></i>
-                </a>
+        <Grid item xs={6}>
 
-                {/*GitHub*/}
-                <a href="http://google.com" target="_blank" rel="noopener noreferrer">
-                  <i class="fab fa-github-square" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-          </Cell>
+          <Typography component="h1">
+            Emilio Ditrocchio
+
+          </Typography>
+          <Typography component="h2">
+             BCIT Computer Systems Technology Student
+           </Typography>
+            <Typography variant="subtitle2">
+            Android | Java | JavaScript | Python | HTML/CSS | OracleDB
+          </Typography>
+
         </Grid>
-      </div>
-    )
-  }
+
+      </Grid>
+    </div>
+  );
 }
 
-export default Landing;
+CenteredGrid.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(CenteredGrid);
