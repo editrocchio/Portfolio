@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import profile from '../bcit-nov28-2316.png'
-import Plx from 'react-plx';
 
 class Landing extends Component {
   render() {
