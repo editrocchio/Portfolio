@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, CardText, Button, CardMenu, IconButton } from 'react-mdl';
 import sa from '../stay_alert_logo.png';
 
+
 class Projects extends Component {
   constructor(props) {
     super(props);

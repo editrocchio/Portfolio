@@ -10,9 +10,9 @@ class App extends Component {
     return (
       <React.Fragment>
       <CssBaseline />
-        <div className="demo-big-content">
+        <div>
             <Layout>
-                <Header className='header-color' title="Title" scroll>
+                <Header className='header-color' title="Title">
                     <Navigation>
                         <Link to="/aboutme">About Me</Link>
                         <Link to="/projects">Projects</Link>
