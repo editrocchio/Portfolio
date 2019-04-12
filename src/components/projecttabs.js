@@ -47,9 +47,18 @@ class CenteredTabs extends React.Component {
           <Tab label="Web Development" />
           <Tab label="Python" />
         </Tabs>
-        {value === 0 && <TabContainer><MediaCard name="Stay Alert" description="Crazy ass app lol"/></TabContainer>}
-        {value === 1 && <TabContainer>Item Two</TabContainer>}
-        {value === 2 && <TabContainer>Item Three</TabContainer>}
+        {value === 0 && <TabContainer>
+            <MediaCard name="Stay Alert" description="Crazy ass app lol"/>
+            <MediaCard name="AR Ground" description="Crazy ass app lol"/>
+        </TabContainer>}
+        {value === 1 && <TabContainer>
+            <MediaCard name="Talking Card" description="Crazy ass app lol"/>
+            <MediaCard name="Stay Alert Web" description="Crazy ass app lol"/>
+            <MediaCard name="Portfolio" description="Crazy ass app lol"/>
+        </TabContainer>}
+        {value === 2 && <TabContainer>
+            <MediaCard name="Withdrawal Automator" description="Crazy ass app lol"/>
+        </TabContainer>}
       </Paper>
     );
   }

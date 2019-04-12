@@ -5,8 +5,11 @@ import Grid  from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Grid';
 import Divider from '@material-ui/core/Divider';
-import profile from '../bcit-nov28-2316.png'
+import About from './aboutme.js'
 import CenteredTabs from './projecttabs.js'
+import Avatar from '@material-ui/core/Avatar';
+import java from '../languages/java.png'
+import js from '../languages/js.png'
 
 const styles = theme => ({
   root: {
@@ -32,7 +35,8 @@ const styles = theme => ({
       color: "black"
   },
   paper: {
-      color: "black"
+      color: "black",
+
   },
 
   divider: {
@@ -43,6 +47,18 @@ const styles = theme => ({
   projects: {
       margin: "0 auto",
       marginTop: "10%"
+  },
+
+  avatar: {
+      margin: 60,
+      width: 200,
+      height: 200,
+      display: "inline-block"
+  },
+  languages: {
+      color: "black",
+
+
   }
 
 });
@@ -69,19 +85,7 @@ class LandingPage extends React.Component {
                 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
               </Grid>
 
-              <Grid item xs={6} className={classes.about}>
-                  <Paper className={classes.paper} elevation={2}>
-                      <Typography component="h1">
-                        About Me
-                      </Typography>
-                      <Divider className={classes.divider}/>
-                      <Typography component="h4">
-                      Lorem ipsum conubia enim mi primis netus aliquam rhoncus, vestibulum ut iaculis etiam cubilia ut mauris hendrerit sociosqu cubilia etiam mauris.
-                      Phasellus augue ad ornare eleifend orci curabitur est ut, massa congue senectus faucibus dictum gravida ante nisl, nullam leo egestas dui est mollis adipiscing.
-
-                      </Typography>
-                  </Paper>
-              </Grid>
+              <About/>
 
               <Grid item xs={8} className={classes.projects}>
                   <Paper className={classes.paper} elevation={2}>
@@ -91,6 +95,24 @@ class LandingPage extends React.Component {
                   <CenteredTabs/>
                 </Paper>
               </Grid>
+
+              <Grid item xs={8} className={classes.projects}>
+                <Paper className={classes.paper} elevation={2}>
+                  <Typography component="h1">
+                    Resume
+                  </Typography>
+                    <Paper className={classes.root} elevation={2}>
+                    <Typography component="h3" className={classes.languages}>
+                        Languages
+                    </Typography>
+                    <Avatar alt="java" src={java} className={classes.avatar} />
+                    <Avatar alt="js" src={js} className={classes.avatar} />
+
+                </Paper>
+
+                </Paper>
+              </Grid>
+
           </Grid>
           </div>
         );
@@ -100,5 +122,6 @@ class LandingPage extends React.Component {
 LandingPage.propTypes = {
   classes: PropTypes.object.isRequired,
 };
+
 
 export default withStyles(styles)(LandingPage);
