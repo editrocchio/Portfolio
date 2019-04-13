@@ -11,7 +11,7 @@ import Typography from '@material-ui/core/Typography';
 
 const styles = {
   card: {
-    maxWidth: 345,
+    width: "250px",
     display: "inline-block",
     margin: "20px"
   },
@@ -27,7 +27,7 @@ function MediaCard(props) {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image={props.logo}
           title="Contemplative Reptile"
         />
         <CardContent>
@@ -41,10 +41,10 @@ function MediaCard(props) {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Google Play Store
+          {props.link1}
         </Button>
         <Button size="small" color="primary">
-          Share
+          {props.link2}
         </Button>
       </CardActions>
     </Card>

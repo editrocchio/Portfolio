@@ -6,6 +6,8 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import MediaCard from './tabcard.js';
+import sa from '../logos/stay_alert_logo.png'
+import ar from '../logos/ar_logo.png'
 
 function TabContainer(props) {
   return (
@@ -19,6 +21,9 @@ const styles = {
   root: {
     flexGrow: 1,
   },
+  android: {
+
+  }
 };
 
 
@@ -43,16 +48,16 @@ class CenteredTabs extends React.Component {
           textColor="primary"
           centered
         >
-          <Tab label="Android" />
+          <Tab label="Android"/>
           <Tab label="Web Development" />
           <Tab label="Python" />
         </Tabs>
-        {value === 0 && <TabContainer>
-            <MediaCard name="Stay Alert" description="Crazy ass app lol"/>
-            <MediaCard name="AR Ground" description="Crazy ass app lol"/>
+        {value === 0 && <TabContainer >
+            <MediaCard name="Stay Alert" description="Real Time VPD Crime Alerts" link1="Google Play Store" link2="share" logo={sa}/>
+            <MediaCard name="AR Ground" description="View and Share Augmented Reality Models with the World" link1="GitHub" link2="share" logo={ar}/>
         </TabContainer>}
         {value === 1 && <TabContainer>
-            <MediaCard name="Talking Card" description="Crazy ass app lol"/>
+            <MediaCard name="Talking Card" description="Crazy ass app lol" />
             <MediaCard name="Stay Alert Web" description="Crazy ass app lol"/>
             <MediaCard name="Portfolio" description="Crazy ass app lol"/>
         </TabContainer>}

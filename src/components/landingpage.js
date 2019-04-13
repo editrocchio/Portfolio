@@ -10,6 +10,18 @@ import CenteredTabs from './projecttabs.js'
 import Avatar from '@material-ui/core/Avatar';
 import java from '../languages/java.png'
 import js from '../languages/js.png'
+import py from '../languages/python.png'
+import android from '../frameworks/android.png'
+import firebase from '../frameworks/firebase.png'
+import git from '../frameworks/git.png'
+import oracle from '../frameworks/oracle.png'
+import react from '../frameworks/react.png'
+import css from '../web/css.png'
+import html from '../web/html.png'
+import jquery from '../web/jquery.png'
+import rest from '../web/rest.png'
+import androidstud from '../tab_images/android.png'
+
 
 const styles = theme => ({
   root: {
@@ -27,7 +39,7 @@ const styles = theme => ({
   },
 
   landingText: {
-      marginTop: "20%"
+      marginTop: "18%"
   },
 
   about: {
@@ -50,16 +62,15 @@ const styles = theme => ({
   },
 
   avatar: {
-      margin: 60,
-      width: 200,
-      height: 200,
+      margin: 10,
+      width: 60,
+      height: 60,
       display: "inline-block"
   },
   languages: {
       color: "black",
+  },
 
-
-  }
 
 });
 
@@ -79,10 +90,10 @@ class LandingPage extends React.Component {
                 <Typography component="h2">
                    BCIT Computer Systems Technology Student
                  </Typography>
-                  <Typography variant="subtitle2">
-                  Welcome to my portfolio website
+                  <Typography component="h4">
+                  Agile Developer Intern - SAP
                 </Typography>
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
               </Grid>
 
               <About/>
@@ -99,7 +110,7 @@ class LandingPage extends React.Component {
               <Grid item xs={8} className={classes.projects}>
                 <Paper className={classes.paper} elevation={2}>
                   <Typography component="h1">
-                    Resume
+                    Skills
                   </Typography>
                     <Paper className={classes.root} elevation={2}>
                     <Typography component="h3" className={classes.languages}>
@@ -107,7 +118,22 @@ class LandingPage extends React.Component {
                     </Typography>
                     <Avatar alt="java" src={java} className={classes.avatar} />
                     <Avatar alt="js" src={js} className={classes.avatar} />
-
+                    <Avatar alt="py" src={py} className={classes.avatar} />
+                    <Typography component="h3" className={classes.languages}>
+                        Tools and Framworks
+                    </Typography>
+                    <Avatar alt="android" src={android} className={classes.avatar} />
+                    <Avatar alt="firebase" src={firebase} className={classes.avatar} />
+                    <Avatar alt="git" src={git} className={classes.avatar} />
+                    <Avatar alt="react" src={react} className={classes.avatar} />
+                    <Avatar alt="oracle" src={oracle} className={classes.avatar} />
+                    <Typography component="h3" className={classes.languages}>
+                        Web Development
+                    </Typography>
+                    <Avatar alt="html" src={html} className={classes.avatar} />
+                    <Avatar alt="jquery" src={css} className={classes.avatar} />
+                    <Avatar alt="css" src={jquery} className={classes.avatar} />
+                    <Avatar alt="rest" src={rest} className={classes.avatar} />
                 </Paper>
 
                 </Paper>

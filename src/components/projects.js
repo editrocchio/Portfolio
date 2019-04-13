@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, CardText, Button, CardMenu, IconButton } from 'react-mdl';
-import sa from '../stay_alert_logo.png';
-
 
 class Projects extends Component {
   constructor(props) {
@@ -17,7 +15,7 @@ toggleCategories() {
         {/*Stay Alert*/}
         <div id="sa">
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color:'black', height:'176px', background: "url(" + sa + ") center" }}>Stay Alert</CardTitle>
+            <CardTitle style={{color:'black', height:'176px' }}>Stay Alert</CardTitle>
             <CardText>Hello</CardText>
             <CardActions border>
               <Button colored href="https://play.google.com/store/apps/details?id=com.crime.emilio.stayalert">Google Play Store</Button>
@@ -31,7 +29,7 @@ toggleCategories() {
         <div id="ar">
           {/*AR Ground*/}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color:'black', height:'176px', background: "url(" + sa + ") center" }}>AR Ground</CardTitle>
+            <CardTitle style={{color:'black', height:'176px' }}>AR Ground</CardTitle>
             <CardText>Hello</CardText>
             <CardActions border>
               <Button colored href="https://github.com/editrocchio/AR-Ground">GitHub</Button>
