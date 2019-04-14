@@ -24,12 +24,12 @@ const styles = theme => ({
   myPic: {
       height: "50%",
       float: "left",
-      margin: "10px 0 0 90px"
+      margin: "10px 20px 0 60px"
   },
 
   aboutTextContainer: {
-    width: "550px",
-    margin: "0 auto"
+    width: "600px",
+    marginLeft: "300px"
   },
 
   aboutText: {
@@ -40,7 +40,7 @@ const styles = theme => ({
   contactIconContainer: {
     float: "left",
     marginTop: "230px",
-    marginLeft: "-182px",
+    marginLeft: "-200px",
 
   },
 
@@ -50,7 +50,7 @@ class About extends Component {
   render() {
       const { classes } = this.props;
     return (
-        <Grid item xs={8} className={classes.about}>
+        <Grid item xs={6} className={classes.about}>
             <Paper className={classes.paper} elevation={2}>
                 <Typography component="h1" className={classes.aboutTitle}>
                   About Me

@@ -39,7 +39,7 @@ const styles = theme => ({
   },
 
   landingText: {
-      marginTop: "18%"
+      marginTop: "15%"
   },
 
   about: {
@@ -58,7 +58,7 @@ const styles = theme => ({
 
   projects: {
       margin: "0 auto",
-      marginTop: "10%"
+      marginTop: "200px"
   },
 
   avatar: {
@@ -93,7 +93,7 @@ class LandingPage extends React.Component {
                   <Typography component="h4">
                   Agile Developer Intern - SAP
                 </Typography>
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
               </Grid>
 
               <About/>
@@ -108,11 +108,11 @@ class LandingPage extends React.Component {
               </Grid>
 
               <Grid item xs={8} className={classes.projects}>
-                <Paper className={classes.paper} elevation={2}>
-                  <Typography component="h1">
-                    Skills
-                  </Typography>
                     <Paper className={classes.root} elevation={2}>
+                    <Typography component="h1" className={classes.languages}>
+                      Skills
+                      <Divider variant="middle"/>
+                    </Typography>
                     <Typography component="h3" className={classes.languages}>
                         Languages
                     </Typography>
@@ -134,7 +134,7 @@ class LandingPage extends React.Component {
                     <Avatar alt="jquery" src={css} className={classes.avatar} />
                     <Avatar alt="css" src={jquery} className={classes.avatar} />
                     <Avatar alt="rest" src={rest} className={classes.avatar} />
-                </Paper>
+
 
                 </Paper>
               </Grid>
