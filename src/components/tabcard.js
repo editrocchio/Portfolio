@@ -17,6 +17,7 @@ const styles = {
   },
   media: {
     height: 140,
+    objectFit: 'cover',
   },
 };
 
@@ -40,10 +41,10 @@ function MediaCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary" href={props.href1}>
+        <Button size="small" color="primary" href={props.href1} target="_blank">
           {props.link1}
         </Button>
-        <Button size="small" color="primary" href={props.href2}>
+        <Button size="small" color="primary" href={props.href2} target="_blank">
           {props.link2}
         </Button>
       </CardActions>
