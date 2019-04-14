@@ -40,10 +40,10 @@ function MediaCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" href={props.href1}>
           {props.link1}
         </Button>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" href={props.href2}>
           {props.link2}
         </Button>
       </CardActions>

@@ -7,7 +7,6 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import MediaCard from './tabcard.js';
 import sa from '../logos/stay_alert_logo.png'
-import ar from '../logos/ar_logo.png'
 
 function TabContainer(props) {
   return (
@@ -53,8 +52,8 @@ class CenteredTabs extends React.Component {
           <Tab label="Python" />
         </Tabs>
         {value === 0 && <TabContainer >
-            <MediaCard name="Stay Alert" description="Real Time VPD Crime Alerts" link1="Google Play Store" link2="share" logo={sa}/>
-            <MediaCard name="AR Ground" description="View and Share Augmented Reality Models with the World" link1="GitHub" link2="share" logo={ar}/>
+            <MediaCard name="Stay Alert" description="Real Time VPD Crime Alerts" link1="Google Play Store" link2="share" logo={sa} href1="google.com"/>
+            <MediaCard name="AR Ground" description="In Development" link1="GitHub" link2="share" />
         </TabContainer>}
         {value === 1 && <TabContainer>
             <MediaCard name="Talking Card" description="Crazy ass app lol" />
