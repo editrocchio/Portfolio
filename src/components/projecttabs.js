@@ -22,8 +22,6 @@ class CenteredTabs extends React.Component {
   };
 
   render() {
-    const { classes } = this.props;
-    const { value } = this.state;
     return (
       <Container  className="proWrapper">
       <Row>
@@ -42,36 +40,11 @@ class CenteredTabs extends React.Component {
             <Tab eventKey="python" title="Python">
               <MediaCard name="Withdrawal Automator" description="Business auotomation tool" link1="GitHub" href1="https://github.com/editrocchio/WDAutomator" logo={wd}/>
             </Tab>
-          </Tabs>;
+          </Tabs>
 
         </Col>
         </Row>
       </Container>
-
-    /*  <Tabs
-        value={this.state.value}
-        onChange={this.handleChange}
-        indicatorColor="primary"
-        textColor="primary"
-
-      >
-        <Tab label="Android"/>
-        <Tab label="Web Development" />
-        <Tab label="Python" />
-      </Tabs>
-      {value === 0 && <TabContainer>
-          <MediaCard name="Stay Alert" description="Real time VPD crime alerts" link1="Google Play Store" logo={sa} href1="https://play.google.com/store/apps/details?id=com.crime.emilio.stayalert"/>
-          <MediaCard name="AR Ground" description="Working with augmented reality" link1="GitHub" href1="https://github.com/editrocchio/AR-Ground" logo={ar}/>
-      </TabContainer>}
-      {value === 1 && <TabContainer>
-          <MediaCard name="Talking Card" description="Voice controlled cue cards" link1="Firebase" href1="https://co-op-hackathon.firebaseapp.com/" link2="GitHub" href2="https://github.com/editrocchio/Talking-Card" logo={tc}/>
-          <MediaCard name="Stay Alert Web" description="Real time VPD crime alerts" link1="Firebase" href1="https://stayalert-85212.firebaseapp.com" link2="GitHub" href2="https://github.com/editrocchio/StayAlertWeb" logo={sa_web}/>
-          <MediaCard name="Portfolio" description="Portfolio webpage made with React" link1="URL" href1="google.com" link2="GitHub" href2="https://github.com/editrocchio/Portfolio"/>
-      </TabContainer>}
-      {value === 2 && <TabContainer>
-          <MediaCard name="Withdrawal Automator" description="Business auotomation tool" link1="GitHub" href1="https://github.com/editrocchio/WDAutomator" logo={wd}/>
-      </TabContainer>} */
-
 
     );
   }

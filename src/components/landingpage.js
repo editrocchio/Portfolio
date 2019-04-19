@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import About from './aboutme.js'
 import CenteredTabs from './projecttabs.js'
 import java from '../languages/java.png'
@@ -17,6 +16,7 @@ import rest from '../web/rest.png'
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Image from 'react-bootstrap/Image';
 
 
 
@@ -40,6 +40,46 @@ class LandingPage extends React.Component {
               <About/>
               <Container>
                   <CenteredTabs/>
+              </Container>
+
+              <Container className="skillsWrapper">
+
+                  <h1>Skills</h1>
+                  <hr />
+                  <div class="skills">
+                  <Row>
+                    <Col>
+                      <h4>Programming Languages</h4>
+                      <Image src={java} fluid className="skillsImg"/>
+                      <Image src={js} fluid className="skillsImg"/>
+                      <Image src={py} fluid className="skillsImg"/>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col>
+                      <h4>Tools and Frameworks</h4>
+                      <Image src={android} fluid className="skillsImg"/>
+                      <Image src={git} fluid className="skillsImg"/>
+                      <Image src={react} fluid className="skillsImg"/>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col>
+                      <h4>Web</h4>
+                      <Image src={html} fluid className="skillsImg"/>
+                      <Image src={css} fluid className="skillsImg"/>
+                      <Image src={jquery} fluid className="skillsImg"/>
+                      <Image src={rest} fluid className="skillsImg"/>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col>
+                      <h4>Database</h4>
+                      <Image src={firebase} fluid className="skillsImg"/>
+                      <Image src={oracle} fluid className="skillsImg"/>
+                    </Col>
+                  </Row>
+                  </div>
               </Container>
 
           </div>

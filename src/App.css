@@ -35,11 +35,14 @@ body, html {
     color: white;
 }
 
+hr {
+  height: 1px;
+}
+
 .aboutWrapper {
   margin-top: 3%;
   width: 50%;
 }
-
 
 .aboutText h4 {
   font-size: 12pt;
@@ -59,7 +62,6 @@ body, html {
     margin-right: 10px;
 }
 
-
 .fab {
   padding: 5px;
   color: black;
@@ -68,4 +70,34 @@ body, html {
 .fas {
   padding: 5px;
   color: black;
+}
+
+.proWrapper {
+  margin-top: 10%;
+  width: 87%;
+}
+
+.skillsWrapper {
+  margin-top: 10%;
+  width: 50%;
+
+}
+
+.skillsImg {
+  width: 100px;
+  padding: 10px;
+}
+
+.skillsHr {
+  background-color: red;
+  width: 80%;
+  margin-left: -5px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skills h4 {
+  padding-top: 5px;
 }
