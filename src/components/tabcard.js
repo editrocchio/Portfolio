@@ -11,9 +11,8 @@ import Typography from '@material-ui/core/Typography';
 
 const styles = {
   card: {
-    width: "250px",
     display: "inline-block",
-    margin: "20px"
+    margin: "20px",
   },
   media: {
     height: 140,
@@ -29,7 +28,6 @@ function MediaCard(props) {
         <CardMedia
           className={classes.media}
           image={props.logo}
-          title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">

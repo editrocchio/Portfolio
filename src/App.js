@@ -1,31 +1,27 @@
 import React, { Component } from 'react';
 import './App.css';
-import {Layout, Header, Navigation, Content} from 'react-mdl';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 import Main from './components/main';
-import {Link} from 'react-router-dom';
-import CssBaseline from '@material-ui/core/CssBaseline';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-      <CssBaseline />
-        <div>
-            <Layout>
-                <Header className='header-color' title="Title">
-                    <Navigation>
-                        <Link to="/aboutme">About Me</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/resume">Resume</Link>
-                        <Link to="/contact">Contact</Link>
-                    </Navigation>
-                </Header>
-                <Content>
-                    <div className="page-content" />
-                    <Main/>
-                </Content>
-            </Layout>
-        </div>
+        <Navbar className="header-color" expand="lg">
+        <Navbar.Brand href="#home">Emilio Ditrocchio</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="navLinks">
+            <Nav.Link href="#home">About Me</Nav.Link>
+            <Nav.Link hre="#link">Projects</Nav.Link>
+            <Nav.Link href="#home">Skills</Nav.Link>
+            <Nav.Link hre="#link">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+        </Navbar>
+              <div className="page-content" />
+              <Main/>
       </React.Fragment>
 
     );
