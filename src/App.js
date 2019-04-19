@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar className="header-color" expand="lg">
+        <Navbar className="header-color" expand="lg" fixed="top">
         <Navbar.Brand href="#home">Emilio Ditrocchio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -16,7 +16,7 @@ class App extends Component {
             <Nav.Link href="#home">About Me</Nav.Link>
             <Nav.Link hre="#link">Projects</Nav.Link>
             <Nav.Link href="#home">Skills</Nav.Link>
-            <Nav.Link hre="#link">Contact</Nav.Link>
+            <Nav.Link hre="#link">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Navbar>

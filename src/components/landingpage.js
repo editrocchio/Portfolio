@@ -1,5 +1,5 @@
 import React from 'react';
-import About from './aboutme.js'
+import About from './aboutme.js';
 import CenteredTabs from './projecttabs.js'
 import java from '../languages/java.png'
 import js from '../languages/js.png'
@@ -43,7 +43,6 @@ class LandingPage extends React.Component {
               </Container>
 
               <Container className="skillsWrapper">
-
                   <h1>Skills</h1>
                   <hr />
                   <div class="skills">
@@ -81,6 +80,8 @@ class LandingPage extends React.Component {
                   </Row>
                   </div>
               </Container>
+
+        
 
           </div>
         );
