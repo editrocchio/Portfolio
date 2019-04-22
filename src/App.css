@@ -39,9 +39,18 @@ hr {
   height: 1px;
 }
 
+.bgLight {
+    background-color: rgb(221, 221, 221);
+}
+
+.bgDark {
+    background-color: rgb(238, 238, 238);
+}
+
 .aboutWrapper {
-  margin-top: 3%;
   width: 50%;
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
 
 .aboutText h4 {
@@ -73,14 +82,15 @@ hr {
 }
 
 .proWrapper {
-  margin-top: 10%;
   width: 87%;
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
 
 .skillsWrapper {
-  margin-top: 10%;
   width: 50%;
-
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
 
 .skillsImg {
@@ -94,7 +104,7 @@ hr {
   margin-left: -5px;
 }
 
-.skills {
+#skills {
   text-align: center;
 }
 

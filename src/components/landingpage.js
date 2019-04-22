@@ -38,50 +38,47 @@ class LandingPage extends React.Component {
             </Container>
           </div>
               <About/>
-              <Container>
-                  <CenteredTabs/>
-              </Container>
+             <CenteredTabs/>
+             <div class="bgLight" id="skills">
+                  <Container className="skillsWrapper">
+                      <h1>Skills</h1>
+                      <hr />
+                      <Row>
+                        <Col>
+                          <h4>Programming Languages</h4>
+                          <Image src={java} fluid className="skillsImg"/>
+                          <Image src={js} fluid className="skillsImg"/>
+                          <Image src={py} fluid className="skillsImg"/>
+                        </Col>
+                      </Row>
+                      <Row>
+                        <Col>
+                          <h4>Tools and Frameworks</h4>
+                          <Image src={android} fluid className="skillsImg"/>
+                          <Image src={git} fluid className="skillsImg"/>
+                          <Image src={react} fluid className="skillsImg"/>
+                        </Col>
+                      </Row>
+                      <Row>
+                        <Col>
+                          <h4>Web</h4>
+                          <Image src={html} fluid className="skillsImg"/>
+                          <Image src={css} fluid className="skillsImg"/>
+                          <Image src={jquery} fluid className="skillsImg"/>
+                          <Image src={rest} fluid className="skillsImg"/>
+                        </Col>
+                      </Row>
+                      <Row>
+                        <Col>
+                          <h4>Database</h4>
+                          <Image src={firebase} fluid className="skillsImg"/>
+                          <Image src={oracle} fluid className="skillsImg"/>
+                        </Col>
+                      </Row>
 
-              <Container className="skillsWrapper">
-                  <h1>Skills</h1>
-                  <hr />
-                  <div class="skills">
-                  <Row>
-                    <Col>
-                      <h4>Programming Languages</h4>
-                      <Image src={java} fluid className="skillsImg"/>
-                      <Image src={js} fluid className="skillsImg"/>
-                      <Image src={py} fluid className="skillsImg"/>
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col>
-                      <h4>Tools and Frameworks</h4>
-                      <Image src={android} fluid className="skillsImg"/>
-                      <Image src={git} fluid className="skillsImg"/>
-                      <Image src={react} fluid className="skillsImg"/>
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col>
-                      <h4>Web</h4>
-                      <Image src={html} fluid className="skillsImg"/>
-                      <Image src={css} fluid className="skillsImg"/>
-                      <Image src={jquery} fluid className="skillsImg"/>
-                      <Image src={rest} fluid className="skillsImg"/>
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col>
-                      <h4>Database</h4>
-                      <Image src={firebase} fluid className="skillsImg"/>
-                      <Image src={oracle} fluid className="skillsImg"/>
-                    </Col>
-                  </Row>
-                  </div>
-              </Container>
+                  </Container>
+              </div>
 
-        
 
           </div>
         );
