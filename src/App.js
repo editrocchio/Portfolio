@@ -9,15 +9,15 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar className="header-color" expand="lg" fixed="top">
-        <Navbar.Brand href="#home">Emilio Ditrocchio</Navbar.Brand>
+        <Navbar className="header-color" expand="lg" fixed="top" variant="dark" collapseOnSelect="true">
+        <AnchorLink href='#home'><Navbar.Brand>Emilio Ditrocchio</Navbar.Brand></AnchorLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="navLinks">
-            <AnchorLink href='#aboutLink'><Nav.Link>About Me</Nav.Link></AnchorLink>
-            <AnchorLink href='#projectLink'><Nav.Link>Projects</Nav.Link></AnchorLink>
-            <AnchorLink href='#skillLink'><Nav.Link>Skills</Nav.Link></AnchorLink>
-            <AnchorLink href='#resLink'><Nav.Link>Resume</Nav.Link></AnchorLink>
+            <AnchorLink href='#aboutLink'><Nav.Link href='#aboutLink'>About Me</Nav.Link></AnchorLink>
+            <AnchorLink href='#projectLink'><Nav.Link href='#projectLink'>Projects</Nav.Link></AnchorLink>
+            <AnchorLink href='#skillLink'><Nav.Link href='#skillLink'>Skills</Nav.Link></AnchorLink>
+            <AnchorLink href='#resLink'><Nav.Link href='#resLink'>Resume</Nav.Link></AnchorLink>
           </Nav>
           </Navbar.Collapse>
         </Navbar>

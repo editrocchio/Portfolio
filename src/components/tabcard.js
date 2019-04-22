@@ -13,6 +13,7 @@ const styles = {
   card: {
     display: "inline-block",
     margin: "20px",
+    width: "250px"
   },
   media: {
     height: 140,

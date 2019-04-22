@@ -14,6 +14,10 @@ class About extends Component {
                 <Col>
                     <h1>About Me</h1>
                     <hr />
+                </Col>
+            </Row>
+            <Row>
+            <Col>
                     <div className='contactIconContainer'>
                       <Image src={profile} alt="profile_pic" className='myPic' fluid rounded/>
                       <div className="icons">
@@ -29,10 +33,11 @@ class About extends Component {
                       <br/><br/>
                       I started my career with an undergraduate degree in Psychology from SFU. After working in the post secondary system for a number of years, I decided to teach myself how to code
                       and quit my job to pursue the field full time. I love building software and have worked with a number of different frameworks and tools. I've built websites, mobile applications,
-                      and business automation software. If you're interested, you can have a look at my portfolio below. Feel free to contact me if you want something built or to collaborate on a
+                      and business automation software.<br/><br/> If you're interested, you can have a look at my portfolio below. Feel free to contact me if you want something built or to collaborate on a
                       project.
                       </h4>
                     </div>
+
                 </Col>
               </Row>
             </Container>
