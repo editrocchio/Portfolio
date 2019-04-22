@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Main from './components/main';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import LandingPage from './components/landingpage.js';
 
 class App extends Component {
   render() {
@@ -13,15 +14,15 @@ class App extends Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="navLinks">
-            <Nav.Link href="#home">About Me</Nav.Link>
-            <Nav.Link hre="#link">Projects</Nav.Link>
-            <Nav.Link href="#home">Skills</Nav.Link>
-            <Nav.Link hre="#link">Resume</Nav.Link>
+            <AnchorLink href='#aboutLink'><Nav.Link>About Me</Nav.Link></AnchorLink>
+            <AnchorLink href='#projectLink'><Nav.Link>Projects</Nav.Link></AnchorLink>
+            <AnchorLink href='#skillLink'><Nav.Link>Skills</Nav.Link></AnchorLink>
+            <AnchorLink href='#resLink'><Nav.Link>Resume</Nav.Link></AnchorLink>
           </Nav>
-        </Navbar.Collapse>
+          </Navbar.Collapse>
         </Navbar>
               <div className="page-content" />
-              <Main/>
+              <LandingPage/>
       </React.Fragment>
 
     );

@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-body, html {
-  font-family: 'Roboto', sans-serif;
-}
-
-.root {
-  margin-bottom: 10%;
-}
-
 .landingText {
     margin-top: 30%;
 }
@@ -32,6 +24,22 @@ body, html {
 }
 
 .navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: silver;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: silver;
+}
+
+.navbar-light .navbar-nav .nav-link:visited {
+  color: white;
+}
+
+.navbar-light .navbar-brand:visited {
     color: white;
 }
 
@@ -88,7 +96,7 @@ hr {
 }
 
 .skillsWrapper {
-  width: 50%;
+  width: 80%;
   padding-top: 130px;
   padding-bottom: 130px;
 }
@@ -110,4 +118,14 @@ hr {
 
 .skills h4 {
   padding-top: 5px;
+}
+
+.resWrapper {
+    width: 80%;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.resWrapper h1 {
+    text-align: center;
 }

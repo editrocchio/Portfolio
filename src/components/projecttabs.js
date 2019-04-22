@@ -39,7 +39,7 @@ class CenteredTabs extends React.Component {
                       <MediaCard name="Portfolio" description="Portfolio webpage made with React" link1="URL" href1="google.com" link2="GitHub" href2="https://github.com/editrocchio/Portfolio"/>
                     </Tab>
                     <Tab eventKey="python" title="Python">
-                      <MediaCard name="Withdrawal Automator" description="Business auotomation tool" link1="GitHub" href1="https://github.com/editrocchio/WDAutomator" logo={wd}/>
+                      <MediaCard name="Withdrawal Automator" description="Business automation tool" link1="GitHub" href1="https://github.com/editrocchio/WDAutomator" logo={wd}/>
                     </Tab>
                   </Tabs>
 
