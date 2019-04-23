@@ -10,12 +10,12 @@ class Resume extends React.Component {
         <div className="bgDark">
           <Container className="resWrapper">
               <h1>Resume</h1>
-
+              <hr className="titleHr"/>
           <Row>
             <Col>
             <h3>Education</h3>
             <hr />
-            <h5>Computer Systems Technology Diploma</h5>
+            <h5><b>Computer Systems Technology Diploma</b></h5>
             <h5>British Columbia Institute of Technology</h5>
             <p><i>September 2018 - December 2020 (expected)</i></p>
             </Col>
@@ -34,7 +34,7 @@ class Resume extends React.Component {
 
            <Row>
              <Col>
-             <h5>Psychology Bachelor's Degree</h5>
+             <h5><b>Psychology Bachelor's Degree</b></h5>
              <h5>Simon Fraser University</h5>
              <p><i>September 2008 - December 2012</i></p>
              <p>Developed critical thinking, report writing, and presentation skills.</p>
@@ -45,9 +45,10 @@ class Resume extends React.Component {
              <Col>
              <h3>Work Experience</h3>
              <hr />
-             <h5>Agile Developer Intern</h5>
+             <h5><b>Agile Developer Intern</b></h5>
              <h5>SAP</h5>
              <p><i>May 2018 - present</i></p>
+             <p>More info to come....</p>
              </Col>
            </Row>
 

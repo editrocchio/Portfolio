@@ -25,28 +25,28 @@ class CenteredTabs extends React.Component {
 
   render() {
     return (
-        <div className="bgDark">
+        <div>
           <Container className="proWrapper">
-            <Row>
+            <Row id="proTitle">
                 <Col>
                     <h1>Projects</h1>
-                    <hr/>
+                    <hr className="titleHr"/>
                 </Col>
             </Row>
             <Paper elevation={2}>
             <Row>
                 <Col>
-                  <Tabs defaultActiveKey="android">
-                    <Tab eventKey="android" title="Android">
+                  <Tabs defaultActiveKey="android" variant="pills">
+                    <Tab eventKey="android" title="Android" className="aTab">
                       <MediaCard name="Stay Alert" description="Real time VPD crime alerts" link1="Google Play Store" logo={sa} href1="https://play.google.com/store/apps/details?id=com.crime.emilio.stayalert"/>
                       <MediaCard name="AR Ground" description="Working with augmented reality" link1="GitHub" href1="https://github.com/editrocchio/AR-Ground" logo={ar}/>
                     </Tab>
-                    <Tab eventKey="web" title="Web Development">
+                    <Tab eventKey="web" title="Web Development" className="wTab">
                       <MediaCard name="Talking Card" description="Voice controlled cue cards" link1="Firebase" href1="https://co-op-hackathon.firebaseapp.com/" link2="GitHub" href2="https://github.com/editrocchio/Talking-Card" logo={tc}/>
                       <MediaCard name="Stay Alert Web" description="Real time VPD crime alerts" link1="Firebase" href1="https://stayalert-85212.firebaseapp.com" link2="GitHub" href2="https://github.com/editrocchio/StayAlertWeb" logo={sa_web}/>
                       <MediaCard name="Portfolio" description="Portfolio made with React" link1="URL" href1="google.com" link2="GitHub" href2="https://github.com/editrocchio/Portfolio" logo={port}/>
                     </Tab>
-                    <Tab eventKey="python" title="Python">
+                    <Tab eventKey="python" title="Python" className="pTab">
                       <MediaCard name="WD Automator" description="Business automation tool" link1="GitHub" href1="https://github.com/editrocchio/WDAutomator" logo={wd}/>
                     </Tab>
                   </Tabs>

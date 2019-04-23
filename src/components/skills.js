@@ -19,10 +19,15 @@ import rest from '../web/rest.png'
 class TechSkills extends React.Component {
   render() {
     return (
-        <div class="bgLight" id="skills">
+        <div class="bgDark" id="skills">
              <Container className="skillsWrapper">
-                 <h1>Technical Skills</h1>
-                 <hr />
+                <Row>
+                    <Col>
+                         <h1>Technical Skills</h1>
+                         <hr className="titleHr" />
+                    </Col>
+                </Row>
+
                  <Row>
                    <Col>
                      <h4>Programming Languages</h4>

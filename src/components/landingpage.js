@@ -30,11 +30,11 @@ class LandingPage extends React.Component {
             <section id={'aboutLink'}>
               <About/>
             </section>
-            <section id={'projectLink'}>
-             <CenteredTabs/>
-            </section>
             <section id={'skillLink'}>
              <Skills/>
+            </section>
+            <section id={'projectLink'}>
+             <CenteredTabs/>
             </section>
             <section id={'resLink'}>
              <Resume/>

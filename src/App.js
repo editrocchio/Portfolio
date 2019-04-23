@@ -15,8 +15,8 @@ class App extends Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="navLinks">
             <AnchorLink href='#aboutLink'><Nav.Link href='#aboutLink'>About Me</Nav.Link></AnchorLink>
-            <AnchorLink href='#projectLink'><Nav.Link href='#projectLink'>Projects</Nav.Link></AnchorLink>
             <AnchorLink href='#skillLink'><Nav.Link href='#skillLink'>Skills</Nav.Link></AnchorLink>
+            <AnchorLink href='#projectLink'><Nav.Link href='#projectLink'>Projects</Nav.Link></AnchorLink>
             <AnchorLink href='#resLink'><Nav.Link href='#resLink'>Resume</Nav.Link></AnchorLink>
           </Nav>
           </Navbar.Collapse>

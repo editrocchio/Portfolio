@@ -8,12 +8,12 @@ import Image from 'react-bootstrap/Image';
 class About extends Component {
   render() {
     return (
-        <div className="bgLight">
+        <div>
             <Container className="aboutWrapper">
-              <Row>
+              <Row id="aboutTitle">
                 <Col>
                     <h1>About Me</h1>
-                    <hr />
+                    <hr className="titleHr"/>
                 </Col>
             </Row>
             <Row>
