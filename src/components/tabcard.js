@@ -18,6 +18,7 @@ const styles = {
   media: {
     height: 140,
     objectFit: 'cover',
+    cursor: 'default'
   },
 };
 
