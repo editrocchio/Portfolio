@@ -20,7 +20,7 @@ class LandingPage extends React.Component {
                           <h1>Emilio Ditrocchio</h1>
                           <hr className="landingHr"/>
                           <h2>BCIT Computer Systems Technology Student</h2>
-                            <h4>Agile Developer Intern - SAP</h4>
+                          <h4>Agile Developer Intern</h4>
                         </div>
                       </Col>
                     </Row>
