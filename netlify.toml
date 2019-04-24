@@ -1,4 +1,0 @@
-[build]
-base = "Portfolio/"
-publish = "Portfolio/build/"
-command = "run build"
