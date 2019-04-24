@@ -3,6 +3,7 @@
 
 .landingText {
     margin-top: 30%;
+    margin-bottom: 30%;
 }
 
 .header-color {
@@ -17,7 +18,6 @@
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
     text-align: center;
-    height: 900px;
 }
 
 .navbar-dark .navbar-nav .nav-link{
