@@ -12,7 +12,7 @@ class About extends Component {
             <Container className="aboutWrapper">
               <Row id="aboutTitle">
                 <Col>
-                    <h1>About Me</h1>
+                    <h1><b>About Me</b></h1>
                     <hr className="titleHr"/>
                 </Col>
             </Row>

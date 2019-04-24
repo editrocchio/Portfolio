@@ -23,7 +23,7 @@ class TechSkills extends React.Component {
              <Container className="skillsWrapper">
                 <Row>
                     <Col>
-                         <h1>Technical Skills</h1>
+                         <h1><b>Technical Skills</b></h1>
                          <hr className="titleHr" />
                     </Col>
                 </Row>

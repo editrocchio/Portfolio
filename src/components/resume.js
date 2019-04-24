@@ -9,7 +9,7 @@ class Resume extends React.Component {
 
         <div className="bgDark">
           <Container className="resWrapper">
-              <h1>Resume</h1>
+              <h1><b>Resume</b></h1>
               <hr className="titleHr"/>
           <Row>
             <Col>

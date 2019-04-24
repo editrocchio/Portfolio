@@ -29,7 +29,7 @@ class CenteredTabs extends React.Component {
           <Container className="proWrapper">
             <Row id="proTitle">
                 <Col>
-                    <h1>Projects</h1>
+                    <h1><b>Projects</b></h1>
                     <hr className="titleHr"/>
                 </Col>
             </Row>
