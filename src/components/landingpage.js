@@ -3,6 +3,9 @@ import About from './aboutme.js';
 import CenteredTabs from './projecttabs.js'
 import Skills from './skills.js'
 import Resume from './resume.js'
+import SplitText from './nameanim.js';
+import SplitText2 from './titleanim.js';
+import SplitText3 from './titleanim2.js';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -17,10 +20,10 @@ class LandingPage extends React.Component {
                     <Row>
                       <Col>
                         <div className="landingText">
-                          <h1>Emilio Ditrocchio</h1>
+                          <h1><SplitText/></h1>
                           <hr className="landingHr"/>
-                          <h2>BCIT Computer Systems Technology Student</h2>
-                          <h4>Agile Developer Intern</h4>
+                          <h2><SplitText2/></h2>
+                          <h4><SplitText3/></h4>
                         </div>
                       </Col>
                     </Row>
