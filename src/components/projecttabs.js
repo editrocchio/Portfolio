@@ -44,7 +44,7 @@ class CenteredTabs extends React.Component {
                     <Tab eventKey="web" title="Web Development" className="wTab">
                       <MediaCard name="Talking Card" description="Voice controlled cue cards" link1="Firebase" href1="https://co-op-hackathon.firebaseapp.com/" link2="GitHub" href2="https://github.com/editrocchio/Talking-Card" logo={tc}/>
                       <MediaCard name="Stay Alert Web" description="Real time VPD crime alerts" link1="Firebase" href1="https://stayalert-85212.firebaseapp.com" link2="GitHub" href2="https://github.com/editrocchio/StayAlertWeb" logo={sa_web}/>
-                      <MediaCard name="Portfolio" description="Portfolio made with React" link1="URL" href1="google.com" link2="GitHub" href2="https://github.com/editrocchio/Portfolio" logo={port}/>
+                      <MediaCard name="Portfolio" description="Portfolio made with React" link1="URL" href1="https://emiliod.me" link2="GitHub" href2="https://github.com/editrocchio/Portfolio" logo={port}/>
                     </Tab>
                     <Tab eventKey="python" title="Python" className="pTab">
                       <MediaCard name="WD Automator" description="Business automation tool" link1="GitHub" href1="https://github.com/editrocchio/WDAutomator" logo={wd}/>
