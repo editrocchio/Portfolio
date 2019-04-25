@@ -1,8 +1,9 @@
 import React from 'react';
 import About from './aboutme.js';
 import CenteredTabs from './projecttabs.js'
-import Skills from './skills.js'
-import Resume from './resume.js'
+import Skills from './skills.js';
+import Resume from './resume.js';
+import Contact from './contact.js';
 import SplitText from './nameanim.js';
 import SplitText2 from './titleanim.js';
 import SplitText3 from './titleanim2.js';
@@ -42,6 +43,9 @@ class LandingPage extends React.Component {
             </section>
             <section id={'resLink'}>
              <Resume/>
+            </section>
+            <section id={'conLink'}>
+              <Contact/>
             </section>
           </div>
         );

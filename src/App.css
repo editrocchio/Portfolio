@@ -5,8 +5,8 @@ html, body {
 }
 
 .landingText {
-    margin-top: 40%;
-    margin-bottom: 40%;
+    margin-top: 42%;
+    margin-bottom: 42%;
     background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
   color: white;
@@ -69,25 +69,26 @@ hr {
 }
 
 .aTab {
-    background-image: url("./tab_images/android_logo.png");
+    background-image: url("./tab_images/android_logo(1).png");
     background-position: center;
+
 }
 
 .wTab {
-    background-image: url("./tab_images/web.png");
+    background-image: url("./tab_images/web(1).png");
     background-position: center;
 }
 
 .pTab {
-    background-image: url("./tab_images/python.png");
+    background-image: url("./tab_images/python(1).png");
     background-position: center;
     background-repeat: no-repeat;
 }
 
 
 .aboutWrapper {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .aboutText h4 {
@@ -126,8 +127,8 @@ hr {
 }
 
 .proWrapper {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .proBorder {
@@ -139,8 +140,8 @@ hr {
 }
 
 .skillsWrapper {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .skillsImg {
@@ -163,10 +164,28 @@ hr {
 }
 
 .resWrapper {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .resWrapper h1 {
     text-align: center;
+}
+
+.contactWrapper {
+  background-image: url('./landing_bg.png');
+  background-size: cover;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+#bottomText {
+  margin-top: 300px;
+  margin-bottom: 50px;
+}
+
+#form {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 300px;
 }

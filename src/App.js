@@ -18,6 +18,7 @@ class App extends Component {
             <AnchorLink href='#skillLink'><Nav.Link href='#skillLink'>Skills</Nav.Link></AnchorLink>
             <AnchorLink href='#projectLink'><Nav.Link href='#projectLink'>Projects</Nav.Link></AnchorLink>
             <AnchorLink href='#resLink'><Nav.Link href='#resLink'>Resume</Nav.Link></AnchorLink>
+            <AnchorLink href='#conLink'><Nav.Link href='#resLink'>Contact</Nav.Link></AnchorLink>
           </Nav>
           </Navbar.Collapse>
         </Navbar>
