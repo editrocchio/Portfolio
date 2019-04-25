@@ -10,6 +10,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
+
 class LandingPage extends React.Component {
     render() {
         return (

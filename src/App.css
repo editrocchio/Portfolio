@@ -5,8 +5,8 @@ html, body {
 }
 
 .landingText {
-    margin-top: 30%;
-    margin-bottom: 30%;
+    margin-top: 40%;
+    margin-bottom: 40%;
     background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
   color: white;
@@ -86,9 +86,8 @@ hr {
 
 
 .aboutWrapper {
-
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .aboutText h4 {
@@ -127,9 +126,8 @@ hr {
 }
 
 .proWrapper {
-  width: 87%;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .proBorder {
@@ -141,9 +139,8 @@ hr {
 }
 
 .skillsWrapper {
-  width: 80%;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .skillsImg {
@@ -166,9 +163,8 @@ hr {
 }
 
 .resWrapper {
-    width: 80%;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .resWrapper h1 {
