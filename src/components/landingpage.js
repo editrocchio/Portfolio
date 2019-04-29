@@ -16,8 +16,8 @@ class LandingPage extends React.Component {
     render() {
         return (
           <div className="root">
+          <section id={'home'}></section>
             <div class="initial" style={{height: window.innerHeight}}>
-            <section id={'home'}>
                   <Container>
                     <Row>
                       <Col>
@@ -30,7 +30,7 @@ class LandingPage extends React.Component {
                       </Col>
                     </Row>
                 </Container>
-            </section>
+
           </div>
             <section id={'aboutLink'}>
               <About/>

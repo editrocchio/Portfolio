@@ -61,7 +61,7 @@ class Contact extends Component {
 
   render() {
     return (
-        <div className='initial'>
+        <div className='initial' >
             <Container>
               <Row id="contactTitle">
                 <Col>
