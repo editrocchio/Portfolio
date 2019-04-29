@@ -5,13 +5,12 @@ html, body {
 }
 
 .landingText {
-    margin-top: 42%;
-    margin-bottom: 42%;
+    padding: 10px;
     background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
 }
 
 .header-color {
@@ -27,6 +26,12 @@ html, body {
     color: white;
     text-align: center;
 
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 
 .navbar-dark .navbar-nav .nav-link{

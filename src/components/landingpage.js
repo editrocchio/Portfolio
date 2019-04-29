@@ -16,7 +16,7 @@ class LandingPage extends React.Component {
     render() {
         return (
           <div className="root">
-            <div class="initial">
+            <div class="initial" style={{height: window.innerHeight}}>
             <section id={'home'}>
                   <Container>
                     <Row>
