@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import profile from '../bcit-nov28-2316.png'
+import profile from '../emilio-ditrocchio.jpg'
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
