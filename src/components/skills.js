@@ -15,6 +15,7 @@ import css from '../web/css.png'
 import html from '../web/html.png'
 import jquery from '../web/jquery.png'
 import rest from '../web/rest.png'
+import postgres from '../frameworks/postgres.png'
 
 class TechSkills extends React.Component {
   render() {
@@ -58,6 +59,7 @@ class TechSkills extends React.Component {
                      <h4>Database</h4>
                      <Image src={firebase} fluid className="skillsImg"/>
                      <Image src={oracle} fluid className="skillsImg"/>
+                     <Image src={postgres} fluid className="skillsImg"/>
                    </Col>
                  </Row>
 

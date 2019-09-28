@@ -39,7 +39,7 @@ class CenteredTabs extends React.Component {
                   <Tabs defaultActiveKey="android" variant="pills">
                     <Tab eventKey="android" title="Android" className="aTab">
                       <MediaCard name="Stay Alert" description="Real time VPD crime alerts" link1="Google Play Store" logo={sa} href1="https://play.google.com/store/apps/details?id=com.crime.emilio.stayalert"/>
-                      <MediaCard name="AR Ground" description="Working with augmented reality" link1="GitHub" href1="https://github.com/editrocchio/AR-Ground" logo={ar}/>
+                      <MediaCard name="AR Ground" description="Working with augmented reality" link1="Google Play Store" href1="https://play.google.com/store/apps/details?id=com.choam.arground" link2="GitHub" href2="https://github.com/editrocchio/AR-Ground"logo={ar}/>
                     </Tab>
                     <Tab eventKey="web" title="Web Development" className="wTab">
                       <MediaCard name="Talking Card" description="Voice controlled cue cards" link1="Firebase" href1="https://co-op-hackathon.firebaseapp.com/" link2="GitHub" href2="https://github.com/editrocchio/Talking-Card" logo={tc}/>

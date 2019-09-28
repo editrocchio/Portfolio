@@ -2,6 +2,8 @@ import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import pdf_img from '../pdf_img.png';
+import res from '../resume.pdf';
 
 class Resume extends React.Component {
   render() {
@@ -10,7 +12,19 @@ class Resume extends React.Component {
         <div className="bgDark">
           <Container className="resWrapper">
               <h1><b>Resume</b></h1>
+              <div className="resumeLinkWrap"><a href={res}><img src={pdf_img} alt="pdf" className="pdfImg"/>
+                <p>Download full resume</p></a>
+              </div>
               <hr className="titleHr"/>
+          <Row>
+            <Col>
+            <h3>Work Experience</h3>
+            <hr />
+            <h5><b>Agile Developer Intern</b></h5>
+            <h5>SAP</h5>
+            <p><i>May 2018 - present</i></p>
+            </Col>
+          </Row>
           <Row>
             <Col>
             <h3>Education</h3>
@@ -31,24 +45,11 @@ class Resume extends React.Component {
                     </ul>
                 </Col>
            </Row>
-
            <Row>
              <Col>
              <h5><b>Psychology Bachelor's Degree</b></h5>
              <h5>Simon Fraser University</h5>
              <p><i>September 2008 - December 2012</i></p>
-             <p>Developed critical thinking, report writing, and presentation skills.</p>
-             </Col>
-           </Row>
-
-           <Row>
-             <Col>
-             <h3>Work Experience</h3>
-             <hr />
-             <h5><b>Agile Developer Intern</b></h5>
-             <h5>SAP</h5>
-             <p><i>May 2018 - present</i></p>
-             <p>More info to come....</p>
              </Col>
            </Row>
 

@@ -32,6 +32,11 @@ html, body {
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
+
+    background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -175,6 +180,24 @@ hr {
 
 .resWrapper h1 {
     text-align: center;
+}
+
+.pdfImg {
+  height:50px;
+  margin: auto;
+  display: block;
+}
+
+.resumeLinkWrap {
+  text-align: center;
+}
+
+.resumeLinkWrap a {
+  color: black;
+}
+
+.resumeLinkWrap a:hover {
+  color: black;
 }
 
 .contactWrapper {
